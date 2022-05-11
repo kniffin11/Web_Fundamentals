@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX POWAH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- semantic element tag, google some of them -->
+    <!-- 1. Identify what items need to be side by side -->
+    <!-- 2. Look for direct parent. If there isn't one, make one -->
+    <nav class="flex">
+        <!-- is a shortcut -->
+        <h1 class="mid">FLEXBOX POWAH</h1>
+        <ul class="flex">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h2 class="mb">Flex parents tell their childrem how to behave</h2>
+        <h3 class="mb">justify-content governs the horizontal allignment of children</h3>
+        <ul class="bullet">
+            <li>Center - centers all children</li>
+            <li>Space-between - first utmost left, last utmost right, rest equally split</li>
+            <li>Space-evenly - split all children evenly</li>
+            <li>Space-around - </li>
+        </ul>
+        <h3>Spaced Between</h3>
+        <div class="parent between">
+            <div class="children">
+                <h2>1</h2>
+            </div>
+            <div class="children">
+                <h2>2</h2>
+            </div>
+            <div class="children">
+                <h2>3</h2>
+            </div>
+            <div class="children">
+                <h2>4</h2>
+            </div>
+        </div>
+        <h3>Spaced Evenly</h3>
+        <div class="parent evenly">
+            <div class="children">
+                <h2>1</h2>
+            </div>
+            <div class="children">
+                <h2>2</h2>
+            </div>
+            <div class="children">
+                <h2>3</h2>
+            </div>
+            <div class="children">
+                <h2>4</h2>
+            </div>
+        </div>
+        <h3>Spaced Around</h3>
+        <div class="parent around">
+            <div class="children">
+                <h2>1</h2>
+            </div>
+            <div class="children">
+                <h2>2</h2>
+            </div>
+            <div class="children">
+                <h2>3</h2>
+            </div>
+            <div class="children">
+                <h2>4</h2>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

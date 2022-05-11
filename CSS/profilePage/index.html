@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleNav.css">
+    <link rel="stylesheet" href="styleLeftMainPage.css">
+    <link rel="stylesheet" href="styleRightMainPage.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- nav starts -->
+    <div class="nav flex">
+        <ul class="nav-menu">
+            <li>
+                <h1>Profile</h1>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button class="btn">Sign Out</button>
+    </div>
+    <!-- nav ends -->
+
+    <!-- container starts -->
+    <div class="container flex">
+        <!-- left main page starts -->
+        <div class="left-main-page">
+            <!-- user card starts -->
+            <div class="user-card body-details">
+                <!-- card header starts -->
+                <div class="user-card-title">
+                    <img class="userCircle" src="./images/icons/user-circle.png" alt="user image">
+                </div>
+                <!-- card header ends -->
+                <!-- card body starts -->
+                <div class="user-card-body">
+                    <h1>Jane Doe</h1>
+                    <div class="strips">
+                        <div class="flexwrap">
+                            <img class="mapMarker" src="./images/icons/map-marker.png" alt="mpa marker">
+                            <p id="seatle">Seattle</p>
+                        </div>
+                    </div>
+                    <div class="strips">
+                        <p> Developer | Engineer | Problem Solver</p>
+                        <P> Master of Shadows and the Internet!</P>
+                    </div>
+                    <div class="strips">
+                        <div class="flexwrap">
+                            <img class="gear" src="./images/icons/gear.png" alt="gear">
+                            <p id="profile"><a href="#">edit profile</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card body ends -->
+            </div>
+            <!-- user card ends -->
+            <!-- education starts -->
+            <div class="education body-details">
+                <!-- education header starts -->
+                <div class="education-title title-setup">
+                    <!-- the div is for the color and title, bad practice to have 1 thing inside -->
+                    <h3>Education</h3>
+                </div>
+                <!-- education header ends -->
+                <!-- education body starts -->
+                <div class="education-body flexbox">
+                    <h2 class="space-out-ed-body">Coding Dojo - Full Stack Bootcamp</h2>
+                    <p class="space-out-ed-body" id="first-paragraph">Dec 2019 - Mar 2020</p>
+                    <p class="space-out-ed-body">Triple black belt in Python, MERN, and C#</p>
+                </div>
+                <!-- education body ends -->
+            </div>
+            <!-- education ends -->
+        </div>
+        <!-- left main page ends -->
+
+        <!-- right main page starts -->
+        <div class="right-main-page">
+            <!-- connection request start -->
+            <div class="connection-requests body-details">
+                <!-- connection request header start -->
+                <div class="connection-requests-title title-setup flexwrap">
+                    <div class="connection-requests-circle">
+                        <p>2</p>
+                    </div>
+                    <h3>Connection Requests</h3>
+                </div>
+                <!-- connection request header ends -->
+                <!-- connection request body starts -->
+                <div class="flexbox">
+                    <div class="flex">
+                        <div class="person-and-name flexwrap">
+                            <img class="person-image" src="./images/profile_photos/todd-s.jpg" alt="todd">
+                            <h3>Todd E</h3>
+                        </div>
+                        <div class="accept-or-deny flexwrap">
+                            <img class="check" src="./images/icons/accept-circle.png" alt="accept">
+                            <img class="check" src="./images/icons/close-circle.png" alt="deny">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="person-and-name flexwrap">
+                            <img class="person-image" src="./images/profile_photos/phil-s.jpg" alt="phil">
+                            <h3>Phil K</h3>
+                        </div>
+                        <div class="accept-or-deny flexwrap">
+                            <img class="check" src="./images/icons/accept-circle.png" alt="accept">
+                            <img class="check" src="./images/icons/close-circle.png" alt="deny">
+                        </div>
+                    </div>
+                </div>
+                <!-- connection request body ends -->
+            </div>
+            <!-- connection request ends -->
+            <!-- your connections start -->
+            <div class="body-details">
+                <!-- your connections header starts -->
+                <div class="your-connections-title title-setup flexwrap">
+                    <div class="your-connections-oval">
+                        <p>500+</p>
+                    </div>
+                    <h3>Your Connections</h3>
+                </div>
+                <!-- your connections header ends -->
+                <!-- your connections body starts -->
+                <div class="flexbox">
+                    <div class="person-and-name flexwrap">
+                        <img class="person-image" src="./images/profile_photos/adrien-s.jpg" alt="person">
+                        <h3>Adrien D</h3>
+                    </div>
+                    <div class="person-and-name flexwrap">
+                        <img class="person-image" src="./images/profile_photos/anne-s.jpg" alt="person">
+                        <h3>Anne J</h3>
+                    </div>
+                    <div class="person-and-name flexwrap">
+                        <img class="person-image" src="./images/profile_photos/alayne-s.jpg" alt="person">
+                        <h3>Alayne T</h3>
+                    </div>
+                    <div class="person-and-name flexwrap">
+                        <img class="person-image" src="./images/profile_photos/arry-s.jpg" alt="person">
+                        <h3>Arry Y</h3>
+                    </div>
+                </div>
+                <!-- your connections body ends -->
+            </div>
+            <!-- your connections end -->
+            <!-- view more box starts -->
+            <div class="view-more">
+                <p><a href="#">View More</a></p>
+            </div>
+            <!-- view more box ends -->
+        </div>
+        <!-- right main page ends -->
+    </div>
+    <!-- container ends -->
+</body>
+
+</html>

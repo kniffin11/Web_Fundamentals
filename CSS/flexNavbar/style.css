@@ -1,0 +1,50 @@
+*{
+    /* roboto font */
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GO COMPARE OLD CODE TO THIS ONE */
+
+.nav{
+    color: #e9e4e4;
+    background-color: #333333;
+    padding: 1.5rem;
+    /* should put color: white in here but due to hyperlinks, they have to be done separately */
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* size of root of em, users font size. em responds ot current element font size */
+    gap: 1.5rem;
+}
+
+.nav-title{
+    justify-content: flex-start;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0px 20px;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #e9e4e4;
+}
+
+.btn{
+    color: white;
+    background-color: #17a2b8;
+    box-shadow: 3px 3px black;
+    width: 80px;
+    /* default height = 20px but the g in sign sits a little low in the box */
+    height: 22px;
+}

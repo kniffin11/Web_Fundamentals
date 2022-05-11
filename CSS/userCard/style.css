@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+}
+
+/* card parts */
+
+.card{
+    margin: 50px;
+    background-color: white;
+    width: 475px;
+    min-height: 245px;
+    border: 2px solid #cccccc;
+}
+
+.header{
+    background-color:#17a2b8;
+    height: 65px;
+}
+
+.body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.strips{
+    padding-top: 5px;
+}
+
+/* Utility classes */
+
+.flex{
+    display: flexbox;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* cusotm image sizes  */
+
+.mapMarker{
+    width: 11px;
+    margin: 5px 5px 5px 0;
+    /* margin-right: 5px; */
+}
+
+.gear{
+    width: 14px;
+    margin: 5px 5px 5px 0;
+    /* margin-right: 5px; */
+}
+
+.userCircle{
+    width: 65px;
+    margin: 30px;
+}
+
+#seatle{
+    /* the one line had to be moved up a little */
+    margin-top: 4px;
+}
+
+#profile{
+    margin-top: 2px;
+}

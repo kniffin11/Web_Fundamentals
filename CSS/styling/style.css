@@ -1,0 +1,28 @@
+*{
+    padding: 8px;
+}
+
+h1{
+    color: aqua;
+    background-color: black;
+    text-align: left;
+    /* Im not sure which font is the right one, so I just showed I know how ot change it */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* spcific for the span */
+#my{
+    color: white;
+}
+
+h2{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman';
+}
+
+h3{
+    background-color: lightblue;
+    text-align: right;
+}

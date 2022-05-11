@@ -1,0 +1,33 @@
+/* style is the industry standard name for this type of page */
+/* 
+Parts of a CSS rule
+
+1. Selector (types: element itself, id of the element, and the class of the element)
+2. Property (what are you changing about the element?)
+3. Value (how are you changing that property?)
+
+*/
+
+/* You must link this file to the HTML file, the head of the HTML file */
+
+/* if you have more than 1 h1, you can add an id for specificity */
+h1 {
+    color: aqua;
+    background-color: gray;
+    padding: 10px; /* This is distance between the edge of the textbox and the background color range*/
+    margin: 20px; /*px is pixels*/
+    /* border takes three values: width style and color */
+    border: 2px solid black;
+    /* It goes text, then padding entirely surrounds text, border entirely surrounds padding, and margin entirely surrounds border. its default */
+}
+
+/* this uses the id and only acts on it, syntax is #id */
+#different{
+    color: darkorange;
+    background-color: black;
+}
+
+/* Selecting a class with a dot */
+.radio-label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
