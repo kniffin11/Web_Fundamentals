@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+/* utility classes */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flexbox{
+    display: flexbox;
+}
+
+/* header  */
+
+.header{
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 25px;
+    align-items: center;
+    background-color: #cccccc;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-size: 260%;
+    justify-content: flex-start;
+}
+
+#searchBar{
+    width: 330px;
+    height: 25px;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+/* container */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* left main page */
+
+.leftMainPage{
+    flex: 3;
+}
+
+.ninjaBoxOne{
+    border: 3px solid black;
+}
+
+.ninjaBoxTwo{
+    border: 3px solid black;
+}
+
+.wordBox{
+    flex: 1;
+    gap: 15px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.wordBox h4{
+    margin: 7px 50px;
+}
+
+.definition{
+    flex: 3;
+    margin: auto 10px;
+    text-align: center;
+}
+
+.leftSideMargins{
+    margin-top: 20px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+/* right main page */
+
+.rightMainPage{
+    flex: 1;
+}
+
+.rightSideMargins{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.addDefinition{
+    min-height: 130px;
+    margin: 20px auto;
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* buttons */
+
+.btnLogin{
+    width: 60px;
+    height: 25px;
+    color: white;
+    box-shadow: 3px 3px black;
+    background-color: #2b78e4;
+}
+
+.btnLike{
+    width: 90px;
+    height: 35px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    justify-self: auto;
+    margin: 5% 15%;
+}
+
+.btnDefinition{
+    width: 160px;
+    height: 35px;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+    margin: 5% 15%;
+}

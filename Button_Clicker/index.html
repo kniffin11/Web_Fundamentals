@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');</style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Im making everything relative, but based off the image shown in the assignment. It looks odd full screen though -->
+    <!-- header starts -->
+    <div class="header flexwrap">
+        <!-- flexwrap -->
+        <h1>Dojonary</h1>
+        <input type="search" id="searchBar">
+        <button class="btnLogin"; onclick="change(this)">Login</button>
+    </div>
+    <!-- header ends -->
+    <!-- container starts -->
+    <div class="container flexwrap"> 
+        <!-- left main page starts -->
+        <div class="leftMainPage flexbox">
+            <!-- ninja box one starts -->
+            <div class="ninjaBoxOne flexwrap leftSideMargins">
+                <!-- word box starts -->
+                <div class="wordBox flexbox">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <p>Plural: ninjas</p>
+                    <button class="btnLike"; onclick="alertNinja()">13 likes</button>
+                </div>
+                <!-- word box ends -->
+                <!-- definition starts -->
+                <div class="definition">
+                    <p>A Practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <!-- definition ends -->
+            </div>
+            <!-- ninja box one ends -->
+            <!-- ninja box two starts -->
+            <div class="ninjaBoxTwo flexwrap leftSideMargins">
+                <!-- word box starts -->
+                <div class="wordBox flexbox">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <p>Plural: ninjas</p>
+                    <button class="btnLike"; onclick="alertNinja()">37 likes</button>
+                </div>
+                <!-- word box ends -->
+                <!-- definition starts -->
+                <div class="definition">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+                <!-- definition ends -->
+            </div>
+            <!-- ninja box two ends -->
+        </div>
+        <!-- left main page ends -->
+        <!-- right main page starts -->
+        <div class="rightMainPage flex">
+            <!-- add definition box starts -->
+            <div class="addDefinition flexwrap rightSideMargins">
+                <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                <button class="btnDefinition" id="def" onclick="remove(this)">Add Definition</button>
+            </div>
+            <!-- add definition box ends -->
+        </div>
+        <!-- right main page ends -->
+    </div>
+    <!-- container ends -->
+    <script src="./script.js"></script>
+</body>
+</html>

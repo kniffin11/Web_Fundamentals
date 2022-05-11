@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<h1>Samuel Kniffin</h1>
+<!-- customized the size of the image with width and height -->
+<img src="./images/default_profile.png" alt="default_profile.png" width="70" height="70">
+
+<body>
+    <!-- this table is for the links below the profile image -->
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <!-- little images -->
+                        <img src="./images/github_image.png" alt="github_image.png" width="20" height="18">
+                        <a href="https://github.com/kniffin11">my github</a>
+                    </th>
+                    <th>
+                        <img src="./images/linkedin_image.png" alt="linkedin_image.png" width="20" height="18">
+                        <a href="https://www.linkedin.com/in/samuel-kniffin-a059401b2/">my linkedin</a>
+                    </th>
+                    <th>
+                        <img src="./images/gmail_image.png" alt="gmail_image.png" width="20" height="18">
+                        <a href="kniffin29@gmail.com">my email</a>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <!-- this is the table for for technologies -->
+    <div>
+        <h3>Technologies</h3>
+        <!-- The lines could be put in with CSS but this project only uses HTML -->
+        <table>
+            <!-- table headers -->
+            <thead>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Concepts</th>
+                </tr>
+            </thead>
+            <!-- table body contents -->
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td> </td> <!-- this creates an empty slot in the table-->
+                    <td>REST</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h3>Social Snakes</h3>
+    <!-- its anempty app image since we havent made an app yet -->
+    <img src="./images/empty_app_icon.png" alt="empty_app_icon.png" width="50" height="50">
+    <!-- I put google as ref links just so they are hyperlinks -->
+    <p>Social Media App made in Python - <a href="https://www.google.com/">code</a> | <a href="https://www.google.com/">deployed</a></p>
+    <form>
+        <div>
+            <h3>Contact Me</h3>
+            <label for="name">Name: </label>
+            <!-- maxlength nad size can change hte size of the textbox -->
+            <input type="text" name="name" id="name" maxlength="9" size="9">
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" maxlength="9" size="9">
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="28" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+        </div>
+    </form>
+</body>
+</html>

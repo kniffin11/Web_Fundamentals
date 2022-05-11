@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+/* utility classes */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flexbox{
+    display: flexbox;
+}
+
+/* header */
+
+header{
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+}
+
+header h1{
+    margin: 10px 20px;
+}
+
+/* nav */
+
+nav{
+    width: 70%;
+    margin: 10px auto;
+    color: black;
+    text-align: center;
+}
+
+/* container */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* rightside */
+
+.rightSide{
+    flex: 3;
+    justify-content: flex-end;
+}
+
+/* some-user classes */
+
+.some-user{
+    margin: 10px;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.top-line{
+    width: 450px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnLike{
+    width: 60px;
+    height: 35px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    justify-self: auto;
+    margin: 0 5px 0 30px;
+}
+
+/* leftside */
+
+.leftSide{
+    flex: 1;
+    align-content: space-between;
+}
+
+.add-avatar{
+    width: 220px;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.image{
+    width: 150px;
+    margin: 20px 35px;
+}
