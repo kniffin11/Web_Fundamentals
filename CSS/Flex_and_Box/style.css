@@ -1,0 +1,83 @@
+/* CSS RESET, affects everything on the page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.children{
+    background-color: aquamarine;
+    padding: 20px; /* this causes there to be no spcaes */
+    text-align: center; /* this alligns text to the center */
+    border: 1px solid black;
+}
+
+.parent{
+    /* REMEMBER */
+    display:flex; /*  this puts things on the same lin but better and organized */
+    /* space-between equally distributes the children */
+    /* justify-content: space-evenly; */
+    /* flex goes to middle, flex-end goes to bottom, flex-start goes to the top, flex-stretch goes as tall as the parent */
+    align-items: flex;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: aqua;
+    /* list-stle gets rid of the bullet point */
+    list-style: none;
+    gap: 20px;
+    /* margin: 5px 20px; */
+}
+/* IMPORTANT */
+/* if you put a class with class = "one two" then both classes one and two apply to the class */
+
+.between{
+    /* spaces elements with the first element on the border, and the last element on the border, all evenly split */
+justify-content: space-between;
+}
+
+.around{
+    /* space between each element is the same, only 1/2 the space from each of border to first/last element, compare two if dont understand*/
+    justify-content: space-around;
+}
+
+/* Utility class */
+/* you could add this class to anything that needs 10px margin bottoms */
+.mb{
+    margin-bottom: 10px;
+}
+
+.evenly{
+    /* spaces evenly  */
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 70%;
+    /* magic centering property */
+    margin: 0 auto;
+    /* no margin top and bottom with automatic on the left and right */
+}
+
+/* selects all elements that live inside the nav element */
+nav u1{
+    background-color: blue;
+    padding: 10px;
+}
+
+.bullet{
+    margin: 0 5%;
+}
+
+.mid{
+    margin: 5px 20px;
+}

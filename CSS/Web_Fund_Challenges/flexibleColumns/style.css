@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+.col{
+    color: white;
+    padding: 15px 10px;
+    background-color: #659da1;
+    /* flex is 1 when numerator is 1 */
+    flex: 1;
+}
+
+.col-2{
+    color: white;
+    padding: 15px 10px;
+    background-color: #659da1;
+    /* flex is 2 when numerator is 2 */
+    flex: 2;
+}
+
+.col-3{
+    color: white;
+    padding: 15px 10px;
+    background-color: #659da1;
+    /* flex is 3 when numerator is 3 */
+    flex: 3;
+}

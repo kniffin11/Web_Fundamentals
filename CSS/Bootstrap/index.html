@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap Demo</title>
+    <!-- this is the bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- there are JS and other bootstrap options. use the bootsrap.css if downloaded  -->
+</head>
+
+<body>
+    <!-- bootstrap is on a grid system. The grid is based on flex, everythings flexed- no issues should arise- thats amazing -->
+    <!-- You'll have rows and columns -->
+    <!-- In each row, there are 12 available columns -->
+
+    <!-- bootswatch has themes that you just have to download and link -->
+
+    <!-- navbar-extend is how far it goes accross the screen -->
+    <div class="navbar navbar-expand bg-dark lg">
+        <h1 class="navbar-brand">
+
+        </h1>
+    </div>
+
+    <!-- container class is defined in bootstrap with 70% auto margins, different font -->
+    <div class="container">
+        <!-- mt is predefined (margin top) , put any number from 0-5 after the dash for incrasing margin top size -->
+        <h1 class="mt-3">Bootstrap</h1>
+        <div class="row">
+            <!-- bootstrap has 12 columns and each col class is taking up 3 of them -->
+            <!-- if a computer screen its 4x1, if tablet size its 2x2, if a phonescreen its 1x4 (all based on window size) col-(lg, md, or sm)-(how many columns (12 total))-->
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-danger">
+                <p>col 1 </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-danger">
+                <p>col 2 </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-danger">
+                <p>col 3 </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-danger">
+                <p>col 4 </p>
+            </div>
+        </div>
+        <!-- margin bottom 0-5 -->
+        <div class="row mb-3">
+            <div class="col">
+                <!-- width percentage -->
+                <form class="w-50">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name: </label>
+                        <input type="text" id="firstName" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for=lastName" class="form-label">Last Name: </label>
+                        <input type="text" id="lastName" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for=muppet" class="form-label">Favorite Muppet: </label>
+                        <select name="" id="muppet" class="form-select">
+                            <option value="kermit">k</option>
+                            <option value="missPiggy">mp</option>
+                            <option value="fozzybear">fb</option>
+                        </select>
+                    </div>
+                    <!-- d-flex means display flex. justify-content-end does that command -->
+                    <div class="mb-3 d-flex justify-content-end">
+                        <!-- btn is predefined, and btn-primary -->
+                        <input type="submit" value="submit" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- table is table class -->
+                <!-- table-dark and table-light, all this shit, table-hover means when you hover it highlights what youre on -->
+                <table class="table table-dark table-bordered table-hover w-75">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Location</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kermit the Frog</td>
+                            <td>The swamp</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>Miss Piggy</td>
+                            <td>5th ave</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>Fozzybear</td>
+                            <td>in his van</td>
+                            <td>58</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- bg-(color_name) gives a color  -->
+    <!-- text-(color_name) cahnges text color -->
+    <!-- gap-(0-5) adds a bigger gap the higher you go-->
+    <!-- go to getbootstrap.com to find classes you need -->
+</body>
+
+</html>
