@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model (DOM)</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- the style tag allows you to write css in html -->
+</head>
+<body>
+    <h1 onclick="change(this)"; onclick="addBgColor()">Document Object Model (DOM)</h1>
+    <h2>The DOM is the broswer window respresented as an object.</h2>
+    <p>A JavaScript object has properties and methods, just like objects IRL have characteristics and things it can do.</p>
+    <h3>car IRL Object</h3>
+    <h4>Car characteristics (JS Properties)</h4>
+    <ul>
+        <li>Color</li>
+        <li>Make</li>
+        <li>Number of wheels</li>
+    </ul>
+    <h4>Things a car can do (JS methods, a method is just a function) </h4>
+    <ul>
+        <li>Drive</li>
+        <li>Beep</li>
+    </ul>
+    <p><em>Onclick is a special kind of attribute - its an event listener attirubte</em></p>
+    <!-- whatever we put in the quotes (even a js function call) will happen -->
+    <!-- in this context this means button - since you called it on the button -->
+    <button onclick="change(this)">CLICK ME SEEMORE</button>
+    <!-- this goes at the bottom of the body, link to a js file -->
+    <script src="dom.js"></script>
+</body>
+</html>

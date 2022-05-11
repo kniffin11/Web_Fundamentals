@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header class="flexwrap">
+        <h1>Network</h1>
+    </header>
+    <!-- header ends -->
+    <!-- nav starts -->
+    <nav>
+        <h1><strong>Your Feed</strong></h1>
+    </nav>
+    <!-- nav ends -->
+    <!-- container starts -->
+    <div class="container flex">
+        <!-- leftside starts -->
+        <div class="leftSide">
+            <!-- add avatar box starts -->
+            <div class="add-avatar flexbox">
+                <img class="image" src="./images/user.png" alt="user">
+                <p><a href="#">Add an avatar</a></p><br>
+                <h2>James Doe</h2>
+            </div>
+            <!-- add avatar box ends -->
+        </div>
+        <!-- left side ends -->
+        <!-- rightside starts -->
+        <div class="rightSide flexwrap">
+            <!-- the three users start -->
+            <div class="some-user flexwrap">
+                <div class="top-line flex">
+                    <h2>Neil M</h2>
+                    <div class="menu flex">
+                        <p>
+                        <p type="number" id="num">9 </p> like(s)</p>
+                        <button class="btnLike" onclick="addLike()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-line">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="some-user flexwrap">
+                <div class="top-line flex">
+                    <h2>Nichole K</h2>
+                    <div class="menu flex">
+                        <p>
+                        <p type="number" id="num2">12 </p> like(s)</p>
+                        <button class="btnLike" onclick="addLike2()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-line">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="some-user flexwrap">
+                <div class="top-line flex">
+                    <h2>Jim R</h2>
+                    <div class="menu flex">
+                        <p>
+                        <p type="number" id="num3">9 </p> like(s)</p>
+                        <button class="btnLike" onclick="addLike3()">Like</button>
+                    </div>
+                </div>
+                <div class="bottom-line">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+            <!-- the three users end -->
+        </div>
+        <!-- right side ends -->
+    </div>
+    <!-- container ends -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
